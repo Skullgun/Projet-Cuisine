@@ -127,5 +127,28 @@ hr
 footer
 {
     background-image: linear-gradient(to right, #041028, #031432, #01173b, #011a45, #031c4f);
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
+
+.titre_footer
+{
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+
+#media
+{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#copyright
+{
+    padding-top: 50px;
+}
+
 
