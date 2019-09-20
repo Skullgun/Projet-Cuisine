@@ -180,7 +180,6 @@ table
     /* --  Description Restaurant -- */
 #photo_accueil_one
 {
-    border: 1px solid green;
     display: flex;
 }
 
@@ -196,17 +195,16 @@ table
     margin-left: 25%;
     background-color: #041028;
     color: white;
+    padding-top: 65px;
+    text-align: center;
 }
 
-#postion_un
+#position_un
 {
-    padding-top:
+    font-size: 18px;
+    width: 400px;
+    margin-left: 50px;
     
-}
-
-#pic_accueil
-{
-    border:  1px solid yellow;
 }
 
 /* ------------------- FOOTER ------------------- */
