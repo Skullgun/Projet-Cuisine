@@ -143,6 +143,10 @@ hr
     position: relative;
 }
 
+#color-sepa
+{
+    background-color: #e0e0e3;
+}
 /* ------------------- TABLEAU ------------------- */
 table
 {
@@ -170,9 +174,6 @@ table
 }
 
 /* ------------------- DESCRIPTION RESTAU ------------------- */
-#description_restau
-{
-}
 /* -- Séparateur --*/
 #troisieme
 {
@@ -290,5 +291,14 @@ footer
     padding-top: 50px;
 }
 
+#media i:hover
+{
+    color: #a28a74;
+}
+
+#media i
+{
+    color: white;
+}
 
 
