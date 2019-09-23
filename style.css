@@ -53,6 +53,11 @@ nav a:hover
     color: #a28a74;
 }
 
+body
+{
+    background-image: linear-gradient(to bottom, #ffffff, #fdfdfd, #fbfbfb, #f9f9f9, #f7f7f7, #e0e0e3, #cac9cf, #b4b3bc, #868694, #595b6d, #2f3449, #041028);
+}
+
 /* ------------------- BANNIERE ------------------- */
 #banniere
 {
@@ -79,7 +84,6 @@ h2
     font-weight: bold;
     font-size: 33px;
     font-family: 'Buenard', serif;
-
 }
 
 #valeurs_restau
@@ -168,9 +172,7 @@ table
 /* ------------------- DESCRIPTION RESTAU ------------------- */
 #description_restau
 {
-    
-}    
-
+}
 /* -- Séparateur --*/
 #troisieme
 {
@@ -182,13 +184,13 @@ table
 {
     display: flex;
 }
-
+    
 .h3_accueil
 {
     color: #a28a74;
     text-align: center;
 }
-
+    
 #text_accueil
 {
     width: 500px;
@@ -198,15 +200,68 @@ table
     padding-top: 65px;
     text-align: center;
 }
-
+    
 #position_un
 {
     font-size: 18px;
     width: 400px;
     margin-left: 50px;
-    
 }
 
+/* -- PARTIE 2 -- */
+#photo_accueil_two
+{
+    display: flex;
+}
+
+#text_accueil_deux
+{
+    width: 500px;
+    margin-left: 25%;
+    background-color: #041028;
+    color: white;
+    padding-top: 65px;
+    text-align: center;
+}
+
+#position_deux
+{
+    font-size: 18px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+#pic_accueil_two
+{
+    margin-top: -4px;
+}
+/* -- PARTIE 3 -- */
+#photo_accueil_three
+{
+    display: flex;
+}
+
+#text_accueil_trois
+{
+    width: 500px;
+    margin-left: 25%;
+    background-color: #041028;
+    color: white;
+    padding-top: 65px;
+    text-align: center;
+}
+
+#position_trois
+{
+    font-size: 18px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+#pic_accueil_three
+{
+    margin-top: -4px;
+}
 /* ------------------- FOOTER ------------------- */
 footer
 {
