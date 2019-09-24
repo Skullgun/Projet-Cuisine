@@ -55,7 +55,7 @@ nav a:hover
 
 body
 {
-    background-image: linear-gradient(to bottom, #ffffff, #fdfdfd, #fbfbfb, #f9f9f9, #f7f7f7, #e0e0e3, #cac9cf, #b4b3bc, #868694, #595b6d, #2f3449, #041028);
+    
 }
 
 /* ------------------- BANNIERE ------------------- */
@@ -75,7 +75,8 @@ h2
 .titre_presentation
 {
     font-size: 35px;
-    font-family: 'Buenard', serif;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
 }
 
 #etoile_arudy
@@ -152,6 +153,8 @@ table
 {
     font-family: 'Old Standard TT', serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 21px;
     line-height: 5rem;
     font-style: italic;
@@ -181,6 +184,11 @@ table
     margin-bottom: 25px;
 }
     /* --  Description Restaurant -- */
+#description_restau
+{
+    
+}
+
 #photo_accueil_one
 {
     display: flex;
@@ -270,6 +278,7 @@ footer
     color: white;
     display: flex;
     justify-content: space-around;
+    width: auto;
 }
 
 .titre_footer
@@ -301,4 +310,106 @@ footer
     color: white;
 }
 
+/* ------------------- MENUS.HTML ------------------- */
+#carte-menus
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    color: white;
+}
 
+#carte-menus-two
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: white;
+}
+
+#menu-one
+{
+    text-align: center;
+    border: 3px solid #a28a74;
+    margin-left: 150px;
+    background-color: #041028;
+}
+
+#menu-two
+{
+    text-align: center;
+    margin-right: 150px;
+    border: 1px solid black;
+    background-color: #041028;
+    border: 3px solid #a28a74;
+}
+
+#menu-three
+{
+    margin-left: 100px;
+    text-align: center;
+    background-color: #041028;
+    border: 3px solid #a28a74;
+}
+
+#menu-four
+{
+    margin-right: 150px;
+    text-align: center;
+    background-color: #041028;
+    border: 3px solid #a28a74;
+}
+
+h4
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: #a28a74;
+}
+
+.strong-menu
+{
+    font-weight: bold;
+    font-size: 18px;
+    color: #a28a74;
+}
+
+
+
+/* ------------------- MEDIA QUERIES ------------------- */
+@media all and (max-width: 630px)
+{
+
+	/* ------- MENU QUERIES --------*/
+    body
+    {
+        width: 100%;
+    }
+    
+    header
+    {
+        flex-direction: column;
+        width: auto;
+    }
+
+    h1
+    {
+        margin-top: 15px;
+    }
+    
+    #banniere
+    {
+        display: none;
+    }
+
+    nav li
+	{
+		margin-right: 10px;
+    }
+    
+    nav a:hover
+	{
+		border-top: none;
+	}
+
+}
