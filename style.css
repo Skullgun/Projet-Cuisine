@@ -183,6 +183,7 @@ table
     position: relative;
     margin-bottom: 25px;
 }
+
     /* --  Description Restaurant -- */
 #description_restau
 {
@@ -311,6 +312,15 @@ footer
 }
 
 /* ------------------- MENUS.HTML ------------------- */
+/* -- Plat du Jour --*/
+#plat-du-jour
+{
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+
+/*-- Carte du Restaurant --*/
 #carte-menus
 {
     display: flex;
@@ -333,6 +343,7 @@ footer
     border: 3px solid #a28a74;
     margin-left: 150px;
     background-color: #041028;
+    border-radius: 50px;
 }
 
 #menu-two
@@ -342,6 +353,7 @@ footer
     border: 1px solid black;
     background-color: #041028;
     border: 3px solid #a28a74;
+    border-radius: 50px;
 }
 
 #menu-three
@@ -350,6 +362,7 @@ footer
     text-align: center;
     background-color: #041028;
     border: 3px solid #a28a74;
+    border-radius: 50px;
 }
 
 #menu-four
@@ -358,6 +371,7 @@ footer
     text-align: center;
     background-color: #041028;
     border: 3px solid #a28a74;
+    border-radius: 50px;
 }
 
 h4
