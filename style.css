@@ -390,6 +390,53 @@ h4
     color: #a28a74;
 }
 
+/* -- RECETTES -- */
+#recette
+{
+   text-align: center;
+   font-size: 24px;
+}
+
+#h2-recettes
+{
+    margin-top: 50px;
+}
+
+.espace
+{
+   height : 30px
+}
+
+th, td 
+{
+   padding: 20px
+}
+
+table
+{
+   margin: auto;
+}
+
+h3
+{
+   font-size: 30px;
+}
+
+td
+{
+   text-align: center;
+}
+
+.pdf-recettes
+{
+    text-decoration: none;
+    color: #041028;
+}
+
+.pdf-recettes:hover
+{
+    
+}
 
 /* ------------------- RESERVATION.HTML ------------------- */
 .flex-item
