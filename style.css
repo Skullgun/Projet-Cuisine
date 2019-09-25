@@ -280,6 +280,8 @@ footer
     display: flex;
     justify-content: space-around;
     width: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;    
 }
 
 .titre_footer
@@ -388,6 +390,97 @@ h4
     color: #a28a74;
 }
 
+
+/* ------------------- RESERVATION.HTML ------------------- */
+.flex-item
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex: 1;
+    margin-top: 140px;
+}
+
+form 
+{
+    margin: 0 auto;
+    width: 400px;
+    color:white;
+    font-size:25px;
+    display:inline-table; 
+    padding: 1em;
+    border: 2px solid #a28a74;
+    border-radius: 1em;
+    background-color: #041028;
+}
+:required 
+{
+
+    border:2.5px solid red;
+}
+
+:required:valid 
+{
+    border:2.5px solid green ; 
+}
+
+form div + div 
+{
+    margin-top: 1em;
+}
+
+label 
+{
+    display: inline-block;
+    width: auto;
+    text-align: right;
+    color: #a28a74;
+    font-family: 'Old Standard TT', serif;
+}
+ 
+input, textarea 
+{
+    font: 1em sans-serif;
+    width: 500px;
+    height:45px;
+    padding-left:10px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius:1em;
+}
+
+input:focus, textarea:focus 
+{
+    border:2px solid yellow;
+    box-shadow: 5px solid #a28a74;
+}
+
+textarea 
+{
+    vertical-align: top;
+    height: 6em;
+}
+
+.button 
+{
+    padding-left: 90px;
+}
+#reserver:hover{
+    background-color: #041028;
+    color: white;
+}
+#reserver 
+{
+    font-size: 30px;
+    font-family: 'Old Standard TT', serif;
+    color: #041028;
+    margin-left: -85px;
+    border-radius: 30px;
+}
+button 
+{
+   margin-left: .5em;
+}
 
 
 /* ------------------- MEDIA QUERIES ------------------- */

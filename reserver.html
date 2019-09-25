@@ -37,6 +37,34 @@
                 </nav>
             </header>
             
+            <!-- FORMULAIRE RESERVATION -->            
+            <div class="flex-item">
+
+                <form action="cible.php" method="post" enctype="multipart/form-data">
+                    <label for="name">Nom* :</label>
+                    <input type="text" required id="name" name="name">
+                    <label for="sname">Prénom :</label>
+                    <input type="text" id="sname" name="sname">
+                    <div>
+                        <label for="mail">E-mail* :</label>
+                        <input type="email" required id="mail" name="email" placeholder="email@exemple.com" >
+                     </div>
+        
+                        <label for='tele'> Téléphone : </label>
+                        <input id="tele" name="tele" type="tel" pattern="[0-9]{10}" maxlength="10" placeholder="0606060606" >
+                    <div>
+                    <label for="num">Nombre de personnes*</label>
+                    <input type="number" required id="num" name="num">
+                    </div>
+                        <div>
+                        <label for="msg">Message (optionnel) :</label>
+                        <textarea id="msg" name="msge"></textarea>
+                    </div>
+                    <div class="button">
+                        <button id ="reserver" type="submit">Réserver</button>
+                    </div>
+                </form>
+            <br><br><br>
 
 
 
