@@ -31,7 +31,7 @@
                         <li> <a href="index.html">Accueil</a> </li>
                         <li> <a href="menus.html">Menus</a> </li>
                         <li> <a href="lechef.html">Le Chef</a> </li>
-                        <li> <a href="reserver.html">Réserver</a> </li>
+                        <li> <a href="reserver.php">Réserver</a> </li>
                         <li> <a href="contact.html">Contact</a> </li>
                     </ul>
                 </nav>

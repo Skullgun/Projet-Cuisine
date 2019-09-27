@@ -52,12 +52,6 @@ nav a:hover
     padding-top: 35px;
     color: #a28a74;
 }
-
-body
-{
-    
-}
-
 /* ------------------- BANNIERE ------------------- */
 #banniere
 {
@@ -185,11 +179,6 @@ table
 }
 
     /* --  Description Restaurant -- */
-#description_restau
-{
-    
-}
-
 #photo_accueil_one
 {
     display: flex;
@@ -433,6 +422,12 @@ td
     color: #041028;
 }
 
+/* ------------------- LECHEF.HTML ------------------- */
+
+#para-chef
+{
+    text-align: center;
+}
 /* ------------------- RESERVATION.HTML ------------------- */
 .flex-item
 {
